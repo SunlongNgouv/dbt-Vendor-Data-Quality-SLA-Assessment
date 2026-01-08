@@ -31,7 +31,7 @@ To check your current python version: > python --version
 4. Run data quality tests: > dbt test
 
 5. Generate and view documentation:
-> dbt docs generate\
+> dbt docs generate
 > dbt docs serve
 
 Open your browser at: http://localhost:8080
