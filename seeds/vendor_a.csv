@@ -1,0 +1,11 @@
+record_id,vendor,county,dob,ssn,disposition,record_date,ingest_time
+A001,VendorA,Cook County,1985-04-12,123-45-6789,Convicted,2024-12-28 08:30:00,2024-12-29 10:15:00
+A002,VendorA,Cook County,1990-09-21,,Dismissed,2024-12-28 09:10:00,2024-12-29 11:00:00
+A003,VendorA,Los Angeles County,1978-01-05,987-65-4321,Pending,2024-12-27 14:20:00,2024-12-28 18:45:00
+A004,VendorA,Los Angeles County,1982-06-18,555-22-1111,Convicted,2024-12-27 16:40:00,2024-12-28 17:10:00
+A005,VendorA,Harris County,1995-11-02,,Convicted,2024-12-26 10:05:00,2024-12-28 12:30:00
+A006,VendorA,Harris County,1988-03-14,444-88-9999,Dismissed,2024-12-26 13:55:00,2024-12-28 14:05:00
+A007,VendorA,Cook County,1971-07-09,333-77-6666,Convicted,2024-12-29 08:00:00,2024-12-30 09:30:00
+A008,VendorA,Maricopa County,1992-12-30,,Pending,2024-12-28 15:10:00,2024-12-29 16:40:00
+A009,VendorA,Maricopa County,1980-05-22,222-66-5555,Convicted,2024-12-28 17:35:00,2024-12-29 18:50:00
+A010,VendorA,Los Angeles County,1976-10-01,111-55-4444,Dismissed,2024-12-29 09:25:00,2024-12-30 10:10:00

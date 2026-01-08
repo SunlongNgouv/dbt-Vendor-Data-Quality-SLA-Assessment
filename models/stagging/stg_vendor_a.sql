@@ -1,0 +1,1 @@
+select * from {{ ref("vendor_a") }}

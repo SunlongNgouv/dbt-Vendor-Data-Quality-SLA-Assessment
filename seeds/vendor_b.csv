@@ -1,0 +1,11 @@
+record_id,vendor,county,dob,ssn,disposition,record_date,ingest_time
+B001,VendorB,Cook County,,123-45-6789,Convicted,2024-12-28 08:30:00,2024-12-28 09:00:00
+B002,VendorB,Cook County,1990-09-21,,Unknown,2024-12-28 09:10:00,2024-12-28 09:40:00
+B003,VendorB,Los Angeles County,,987-65-4321,Pending,2024-12-27 14:20:00,2024-12-27 15:00:00
+B004,VendorB,Los Angeles County,1982-06-18,,Convicted,2024-12-27 16:40:00,2024-12-27 17:05:00
+B005,VendorB,Harris County,,555-22-1111,,2024-12-26 10:05:00,2024-12-26 10:45:00
+B006,VendorB,Harris County,1988-03-14,,Dismissed,2024-12-26 13:55:00,2024-12-26 14:10:00
+B007,VendorB,Cook County,,333-77-6666,Convicted,2024-12-29 08:00:00,2024-12-29 08:30:00
+B008,VendorB,Maricopa County,1992-12-30,,Pending,2024-12-28 15:10:00,2024-12-28 15:35:00
+B009,VendorB,Maricopa County,,222-66-5555,Convicted,2024-12-28 17:35:00,2024-12-28 18:00:00
+B010,VendorB,Los Angeles County,1976-10-01,,Dismissed,2024-12-29 09:25:00,2024-12-29 09:50:00

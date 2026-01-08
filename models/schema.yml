@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: vendor_db
+    description: n/a
+    columns:
+      - name: record_id
+        description: n/a
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_vendor_a
+    description: n/a
+    columns:
+      - name: record_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stg_vendor_b
+    description: n/a
+    columns:
+      - name: record_id
+        data_tests:
+          - unique
+          - not_null
+#      - name: status
+#        data_tests:
+#          - accepted_values:
+#              arguments: # available in v1.10.5 and higher. Older versions can set the <argument_name> as the top-level property.
+#                values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
+#      - name: customer_id
+#        data_tests:
+#          - not_null
+#          - relationships:
+#              arguments:
+#                to: ref('stg_customers')
+#                field: customer_id
+  - name: stg_county_usa
+    description: n/a
+    columns:
+      - name: county
+        data_tests:
+          - not_null

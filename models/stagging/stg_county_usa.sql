@@ -1,0 +1,1 @@
+select * from {{ ref("united-states") }}
