@@ -15,20 +15,34 @@ The goal is to enable data-driven vendor decisions, improve downstream reliabili
 
 #### ⚡ Quick Run
 ````
-Prerequisites
-- Python 3.9+ to 3.12 (dbt model doesn't support latest python package)
+Prerequisites:
+- Python 3.10 to 3.12 (dbt model doesn't support latest python package)
 
 To check your current python version: > python --version
 
-1. Install dependencies: > pip install dbt-core dbt-duckdb
+Installation:
+1. Create & activate virtual environment (recommended)
+> python -m venv .venv
 
-2. Load seed data: > dbt seed
+Windows
+> .venv\Scripts\activate
 
-3. Build models: > dbt run
+macOS / Linux
+> source .venv/bin/activate
 
-4. Run data quality tests: > dbt test
+2. Install dependencies
+> python -m pip install -r requirements.txt
 
-5. Generate and view documentation:
+(Alert) If requirements.txt does not work well as expected:
+> python -m pip install dbt-core dbt-duckdb
+
+3. Load seed data: > dbt seed
+
+4. Build models: > dbt run
+
+5. Run data quality tests: > dbt test
+
+6. Generate and view documentation:
 > dbt docs generate
 > dbt docs serve
 
